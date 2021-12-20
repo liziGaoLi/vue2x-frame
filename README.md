@@ -1,2 +1,3 @@
 # vue2x-frame
-基于Vue2.x搭建的框架，继承了Vuex，VueRouter
+基于Vue2.x搭建的框架
+继承了Vuex，VueRouter，element-ui@2.x
