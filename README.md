@@ -1,3 +1,24 @@
-# vue2x-frame
-基于Vue2.x搭建的框架
-继承了Vuex，VueRouter，element-ui@2.x
+# vue2-bdsp-front
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

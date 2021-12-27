@@ -1,0 +1,62 @@
+$borderColor: #DCDFE6;
+html, body, .App {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+
+  .pagination {
+    text-align: right;
+    margin: 15px 0 5px;
+
+    .el-pager li, .btn-next, .btn-prev {
+      border: 1px solid $borderColor;
+      margin: 0 2px;
+      padding: 0;
+      text-align: center;
+    }
+
+    .el-pagination__jump {
+      margin-left: 0;
+    }
+  }
+
+  .query-form {
+    background: #fff;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px 15px 5px;
+
+    .el-col {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      padding-bottom: 10px;
+
+      span.label {
+        display: block;
+        width: 150px;
+        flex-shrink: 1;
+        text-align: right;
+      }
+
+      &>.el-range-editor, &>.el-input, &>.el-select {
+        width: 100%;
+      }
+    }
+
+    .query-btn {
+      padding-left: 30px;
+
+      .el-button {
+        width: 100px;
+      }
+    }
+  }
+}
+
+.page {
+  padding: 15px;
+}
+

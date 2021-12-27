@@ -1,0 +1,18 @@
+
+.OrgManage {
+  .view-item {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .query-btn {
+
+    .el-button {
+      width: auto!important;
+    }
+  }
+
+  .pagination.view-item {
+    padding: 15px;
+  }
+}

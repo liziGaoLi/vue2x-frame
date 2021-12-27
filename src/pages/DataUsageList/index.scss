@@ -1,0 +1,37 @@
+$borderColor: #DCDFE6;
+.DataUsageList {
+
+  .list-wrap {
+    padding: 0 8px;
+    overflow: hidden;
+
+    .ListItem {
+      float: left;
+      margin: 0 7.5px 15px;
+    }
+  }
+
+  .next-btn {
+    float: left;
+    width: 209px;
+    height: 208px;
+    line-height: 208px;
+    background: #fff;
+    text-align: center;
+    color: #4586ed;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+
+    &:hover {
+      background: #4586ed;
+      color: #fff;
+    }
+  }
+
+  .pagination {
+    margin: 10px 0 30px;
+    text-align: center;
+  }
+}

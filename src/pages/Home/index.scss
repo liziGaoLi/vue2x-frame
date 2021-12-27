@@ -1,0 +1,61 @@
+$white: #fff;
+$emphasisColor: #0090ff;
+.Home {
+  .col-item {
+    background: $white;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 16px;
+
+    &.simple-item {
+      text-align: center;
+      font-size: 16px;
+      color: #333;
+      padding: 20px 0;
+      font-weight: 700;
+
+      span {
+        color: $emphasisColor;
+        font-size: 24px;
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .con {
+    padding: 0 15px 15px;
+  }
+
+  .sub-title {
+    text-align: right;
+    color: #333;
+    font-size: 13px;
+    padding: 0 15px;
+
+    .emphasis {
+      color: $emphasisColor;
+      font-weight: 700;
+      font-size: 16px;
+    }
+  }
+  .chart-box {
+    height: 220px;
+
+    &.bar {
+      margin-top:-15px;
+    }
+  }
+
+  .total-data {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+
+    span {
+      display: block;
+      color: $emphasisColor;
+      font-size: 30px;
+      font-weight: 700;
+    }
+  }
+}

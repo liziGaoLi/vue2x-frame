@@ -1,0 +1,35 @@
+.el-container {
+  height: 100%;
+}
+
+.Layout {
+  .el-header {
+    padding: 0;
+    height: 39px!important;
+  }
+
+  .el-main {
+    background: #f1f3f5;
+    padding: 0;
+  }
+
+  .menus-container {
+    height: 100%;
+  }
+
+  .el-scrollbar {
+    height: 100%;
+
+    .el-scrollbar__wrap {
+      overflow-x: hidden!important;
+    }
+  }
+
+  .layoutAside {
+    transition: width 0.2s;
+  }
+
+  .layoutAside, .el-drawer__body {
+    background: #304156;
+  }
+}

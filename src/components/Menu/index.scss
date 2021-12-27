@@ -1,0 +1,37 @@
+$deepBlue: #2b2f3a;
+
+.Menu {
+  height: 100%;
+
+  .el-menu {
+    border-right: none;
+  }
+
+  .el-submenu.is-opened {
+    ul {
+      background: $deepBlue!important;
+
+      li {
+        background: transparent!important;
+
+        .el-submenu__title {
+          background: transparent!important;
+        }
+      }
+    }
+  }
+
+  .logo-container.is-disabled {
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    background: $deepBlue!important;
+    color: #fff!important;
+    opacity: 1!important;
+
+    img {
+      width: 32px;
+    }
+  }
+}

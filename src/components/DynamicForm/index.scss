@@ -1,0 +1,88 @@
+$blueColor: #409EFF;
+$backColor: #f8f8f8;
+$imgBackColor: #ccc;
+$labelColor: #999;
+
+.DynamicForm {
+  padding-right: 80px;
+
+  .el-form-item__label {
+    color: $labelColor;
+  }
+
+  .el-select {
+    width: 100%;
+  }
+
+  .el-form-item {
+    margin-bottom: 5px;
+
+    .read-only {
+      input {
+        background: $backColor;
+      }
+
+    }
+  }
+
+  .img-item {
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    text-align: center;
+
+    .image-slot {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      margin-top: -20px;
+      font-size: 24px;
+    }
+
+    .el-image {
+      display: block;
+      background: $imgBackColor;
+    }
+
+    .img-btn {
+      display: block;
+      color: $blueColor;
+      cursor: pointer;
+      line-height: 24px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .el-upload {
+    display: block;
+  }
+
+  .upload-btn {
+    position: relative;
+    background: $imgBackColor;
+
+    i {
+      display: block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 50%;
+      top: 50%;
+      margin-left: -10px;
+      margin-top: -10px;
+      font-size: 18px;
+    }
+  }
+
+  .el-input.is-disabled .el-input__inner {
+    color: #333;
+  }
+
+  .space-col {
+    height: 45px;
+  }
+}
